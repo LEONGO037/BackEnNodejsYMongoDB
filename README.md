@@ -24,12 +24,16 @@ git clone https://github.com/LEONGO037/BackEnNodejsYMongoDB.git
 cd BackEnNodejsYMongoDB
 npm install
 
+--
+
 ### 3️⃣ Ejecutar el servidor
 
 '''powershell
 npm start
 
 El servidor se ejecutará en http://localhost:3000/
+
+---
 
 ## Para los endpoints 
 
