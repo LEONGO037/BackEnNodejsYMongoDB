@@ -26,12 +26,11 @@ npm install
 ```
 
 ### 3️⃣ Ejecutar el servidor
-powershell
+```powershell
 Copy
 npm start
 El servidor se ejecutará en http://localhost:3000/
-
----
+```
 
 📋 Endpoints
 Usuarios
