@@ -73,7 +73,7 @@ Endpoints disponibles:
 - DELETE /api/productos/:id - Eliminar producto por ID
 
 ### Contadores
-GET /api/contadores - Obtener la cantidad de documentos de usuarios y productos
+- GET /api/contadores - Obtener la cantidad de documentos de usuarios y productos
 
 ### Operaciones
-GET /api/operaciones - Obtener la cantidad de operaciones del backend
+- GET /api/operaciones - Obtener la cantidad de operaciones del backend
