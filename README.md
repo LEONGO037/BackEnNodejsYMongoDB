@@ -19,11 +19,13 @@ Este proyecto es una API REST que permite gestionar usuarios y productos con ope
 git clone https://github.com/LEONGO037/BackEnNodejsYMongoDB.git
 
 ### 2️⃣ Instalar dependencia
+
 '''powershell
 cd BackEnNodejsYMongoDB
 npm install
 
 ### 3️⃣ Ejecutar el servidor
+
 '''powershell
 npm start
 
@@ -32,6 +34,7 @@ El servidor se ejecutará en http://localhost:3000/
 ## Para los endpoints 
 
 ### Para el usuario
+
 Ejemplo de body:
 {
     "nombre": "Leonardo Delgado",
@@ -45,6 +48,7 @@ Endpoints:
 * Eliminar usuario por ID: DELETE /api/usuarios/:id
 
 ### Para los productos
+
 Ejemplo de body:
 {
     "nombre": "Chocolate con Pasas",
@@ -59,9 +63,11 @@ Endpoints:
 * Eliminar producto por ID: DELETE /api/productos/:id
 
 ### Para el contador de documentos:
+
 Endpoint: 
 * Para obtener la cantidad de documentos de usuarios y productos: GET /api/contadores
 
 ### Para el numero de operaciones:
+
 Endpoint:
 * Para obtener la cantidad de operaciones del backend: GET /api/operaciones
