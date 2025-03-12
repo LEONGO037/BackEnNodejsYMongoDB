@@ -20,29 +20,26 @@ git clone https://github.com/LEONGO037/BackEnNodejsYMongoDB.git
 ```
 ### 2️⃣ Instalar dependencias
 ```powershell
-Copy
 cd BackEnNodejsYMongoDB
 npm install
 ```
 
 ### 3️⃣ Ejecutar el servidor
 ```powershell
-Copy
 npm start
-El servidor se ejecutará en http://localhost:3000/
 ```
+El servidor se ejecutará en http://localhost:3000/
 
-📋 Endpoints
-Usuarios
+## 📋 Endpoints
+### Usuarios
 Ejemplo de body:
 
-json
-Copy
+```json
 {
     "nombre": "Leonardo Delgado",
     "email": "leonardo.delgado@ucb.edu.bo.com",
     "edad": 31
-}
+}```
 Endpoints disponibles:
 
 GET /api/usuarios - Obtener todos los usuarios
@@ -53,17 +50,16 @@ PUT /api/usuarios/:id - Actualizar usuario por ID
 
 DELETE /api/usuarios/:id - Eliminar usuario por ID
 
-Productos
+### Productos
 Ejemplo de body:
 
-json
-Copy
+```json
 {
     "nombre": "Chocolate con Pasas",
     "descripcion": "Chocolate puro 70% con pasas",
     "precio": 120,
     "categoria": "Alimentos"
-}
+} ```
 Endpoints disponibles:
 
 GET /api/productos - Obtener todos los productos
@@ -74,8 +70,8 @@ PUT /api/productos/:id - Actualizar producto por ID
 
 DELETE /api/productos/:id - Eliminar producto por ID
 
-Contadores
+### Contadores
 GET /api/contadores - Obtener la cantidad de documentos de usuarios y productos
 
-Operaciones
+### Operaciones
 GET /api/operaciones - Obtener la cantidad de operaciones del backend
