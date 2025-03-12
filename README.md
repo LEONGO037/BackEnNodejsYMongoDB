@@ -18,13 +18,15 @@ Este proyecto es una API REST que permite gestionar usuarios y productos con ope
 ```bash
 git clone https://github.com/LEONGO037/BackEnNodejsYMongoDB.git
 
+---
+
 ### 2️⃣ Instalar dependencia
 
 '''powershell
 cd BackEnNodejsYMongoDB
 npm install
 
---
+---
 
 ### 3️⃣ Ejecutar el servidor
 
