@@ -39,7 +39,8 @@ Ejemplo de body:
     "nombre": "Leonardo Delgado",
     "email": "leonardo.delgado@ucb.edu.bo.com",
     "edad": 31
-}```
+}
+```
 Endpoints disponibles:
 
 GET /api/usuarios - Obtener todos los usuarios
@@ -59,7 +60,8 @@ Ejemplo de body:
     "descripcion": "Chocolate puro 70% con pasas",
     "precio": 120,
     "categoria": "Alimentos"
-} ```
+}
+```
 Endpoints disponibles:
 
 GET /api/productos - Obtener todos los productos
