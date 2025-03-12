@@ -21,8 +21,7 @@ git clone https://github.com/LEONGO037/BackEnNodejsYMongoDB.git
 ---
 
 ### 2️⃣ Instalar dependencia
-
-'''powershell
+```poweshell
 cd BackEnNodejsYMongoDB
 npm install
 
