@@ -43,13 +43,13 @@ Ejemplo de body:
 ```
 Endpoints disponibles:
 
-GET /api/usuarios - Obtener todos los usuarios
+- GET /api/usuarios - Obtener todos los usuarios
 
-POST /api/usuarios - Agregar usuario
+- POST /api/usuarios - Agregar usuario
 
-PUT /api/usuarios/:id - Actualizar usuario por ID
+- PUT /api/usuarios/:id - Actualizar usuario por ID
 
-DELETE /api/usuarios/:id - Eliminar usuario por ID
+- DELETE /api/usuarios/:id - Eliminar usuario por ID
 
 ### Productos
 Ejemplo de body:
@@ -64,13 +64,13 @@ Ejemplo de body:
 ```
 Endpoints disponibles:
 
-GET /api/productos - Obtener todos los productos
+- GET /api/productos - Obtener todos los productos
 
-POST /api/productos - Agregar producto
+- POST /api/productos - Agregar producto
 
-PUT /api/productos/:id - Actualizar producto por ID
+- PUT /api/productos/:id - Actualizar producto por ID
 
-DELETE /api/productos/:id - Eliminar producto por ID
+- DELETE /api/productos/:id - Eliminar producto por ID
 
 ### Contadores
 GET /api/contadores - Obtener la cantidad de documentos de usuarios y productos
